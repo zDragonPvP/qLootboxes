@@ -1,0 +1,47 @@
+OPTIONS:
+  LOOTBOX-ITEM:
+    MATERIAL: ENDER_CHEST
+    DISPLAY-NAME: " &7» &eLootbox &7(Month: &6November&7)"
+    ITEM-META: 0 #Used for Colors (Example: WOOL:14 = Red Wool)
+    LORES:
+      - "&8&m-----------------------------------"
+      - "Editable Lore :)"
+      - "&8&m-----------------------------------"
+REWARDS:
+  FINAL-ITEMS:
+    GOD-RANK:
+      MATERIAL: BOOK
+      DISPLAY-NAME: "&b&lGOD RANK &7(Lifetime)"
+      ITEM-META: 0
+      AMOUNT: 1
+      CHANCE: 1
+      COMMANDS:
+        - "voucher give {PLAYER} GodRank 1"
+        - "bc &6&lHCFactions &8» &6{PLAYER} &ehas just won &bGod Rank &efrom a &6November Lootbox&e!"
+      LORES:
+        - "&8&m-----------------------------------"
+        - "Editable Lore :)"
+        - "&8&m-----------------------------------"
+      ENCHANTS:
+        - "DURABILITY:10"
+  REGULAR-ITEMS:
+    48x-DIAMOND-BLOCKS:
+      MATERIAL: DIAMOND_BLOCK
+      DISPLAY-NAME: "&e48x Diamond Blocks"
+      ITEM-META: 0
+      AMOUNT: 48
+      CHANCE: 99
+      COMMANDS:
+        - "give {PLAYER} DIAMOND_BLOCK 48"
+      LORES: {}
+      ENCHANTS: {}
+    32x-EMERALD-BLOCKS:
+      MATERIAL: EMERALD_BLOCK
+      DISPLAY-NAME: "&e32x Emerald Blocks"
+      ITEM-META: 0
+      AMOUNT: 32
+      CHANCE: 1
+      COMMANDS:
+        - "give {PLAYER} EMERALD_BLOCK 32"
+      LORES: {}
+      ENCHANTS: {}

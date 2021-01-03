@@ -1,0 +1,8 @@
+name: qLootboxes
+author: PVPTUTORIAL
+main: pw.navigations.qLootboxes.qLootboxes
+version: ${project.version}
+
+commands:
+  lootbox:
+    aliases: [lootboxes]
