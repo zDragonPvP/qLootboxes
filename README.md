@@ -2,7 +2,7 @@
 
 ⭐️Lootbox plugin of HCRival Network ⭐️
 
-⭐️Have fun compiling this ⭐️
+⭐️Have fun with this shit :D⭐️
 
 ⭐️ I'm not a owner of HCRival LLC. ⭐️
 
